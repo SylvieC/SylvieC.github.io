@@ -1,0 +1,312 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #eeefe9;
+}
+h1, h2, h3, h4{
+    font-family: 'Abel', sans-serif;   
+}
+b, strong{
+    font-weight: 400;
+}
+.carousel-caption{
+    z-index: 15;
+    color: black;
+    font-size: 23px;
+
+}
+.carousel-caption.smaller{
+    font-size: 20px;
+    text-align: center
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item{
+    height: 500px;   
+}
+
+#android > p > img {
+width: 160px;
+height: 100px;
+}
+#ios > p > img {
+width: 120px;
+height: 65px;
+}
+
+
+.intro-block{
+      background:#367588  ;
+    padding: 100px 15px 60px;
+    color: #fff;
+    height:300px;
+}
+.text-muted{
+    color: #e9e6df;
+    font-weight: 100;
+}
+.tpad{
+    padding-top: 20px;
+}
+.padded{
+    padding: 100px 15px;
+    padding-left: 30px;
+}
+.marketing{
+    background-color: #e9e6df;   
+}
+hr {
+    border-top: 1px solid #c9c9c9;   
+}
+.info{
+    background: #ffa753 url(../images/skyline.png) repeat-x bottom;
+    padding: 80px 0;
+}
+.info small{
+    color: #eeefe9;   
+}
+.info a{
+    color: #fff;   
+}
+.info a:hover{
+    color: #333;   
+}
+.tab-pane{
+    padding: 40px 10px 0 10px;
+}
+.ftr{
+       background:#367588 ;
+    padding: 10px 40px 60px 20px;
+}
+.ftr address, .ftr a, .ftr p{
+    color: #fff;   
+}
+.ft_space{
+    padding: 0 10px;  
+    color:white; 
+}
+.blog h1 a{ color: #4b8575; }
+.blog p a{ color: #ed7337; }
+.sidebar{
+    background-color: #e9e6df;   
+}
+.bpad{ margin-bottom: 30px;}
+.map {
+    height: 350px;
+    width: 100%;
+}
+
+
+@media(min-width: 768px){
+.carousel-inner > .item{
+    height: 700px;   
+}
+.map {
+    height: 500px;
+}
+    
+iframe{
+    width: 100%;
+    height: 600px;
+}
+.bigger{
+    font-size: 220px;
+    color:black;
+}
+.car2{
+    font-size: 40px;
+}
+#world{
+    position:relative;
+    background:yellow;
+    font-size: 20px;
+    top: -90px;
+    right: 260px;
+}
+#mypic{
+    height:150px;;
+    width:150px;
+}
+.myPic{
+    position: relative;
+    top:50px;
+}
+.french{
+    height:80px;
+    width:80px;
+    background: yellow;
+}
+#wdi{
+    position:relative;
+    background:orange;
+    right:100px;
+    top:-60px;
+}
+#before{
+    position:relative;
+   /* background:#297F5C;*/
+   background: #E4ECCF;
+    top: -30px;
+    right: -30px;
+}
+#passionate{
+    position:relative;
+    /*background: #446688;*/
+    background: #E066FF;
+    right:50px;
+    border-radius: 3px;
+}
+#image{
+    z-index: 16;
+}
+.car2{
+    font-size:300px;
+    background: yellow;
+}
+.skills{
+    font-size: 30px;
+    background:white;
+}
+
+#mypic{
+    height: 30px;
+    width: 50px;
+}
+
+.tpad{
+    height: 180px;
+
+}
+.img-circle{
+    height:200px;
+}
+.img1{
+    height:188px;
+}
+#myCarousel > div.container.padded > div:nth-child(2) > div:nth-child(1) > img{
+    height:500px;
+}
+#team > p > img {
+height: 50px;
+width: 90px;
+}
+.contactinfo{
+    height: 200px;
+    width: 200px;
+
+}
+
+.learn{
+    height: 55px;
+width: 102px;
+}
+.teach{
+    height:55px;
+    width: 100px;
+
+}
+#win > p > img {
+height: 59px;
+width: 100px;
+}
+#github{
+    height: 120px;
+    width:150px;
+}
+.well{
+  background: url(../images/purpalt.png) repeat;
+  color:white;
+}
+#transition{
+    background: url(../images/purpalt.png) repeat;
+    height:20px ;
+}
+body > p.c29.c40 > span:nth-child(8) {
+padding-left: 0;
+margin-left: 0px;
+text-align: left;
+margin-top: 0px;
+background-color: yellow;
+position: relative;
+right: 333px;
+}
+
+body > div.marketing > div.ftr > div > div {
+padding-top: 60px;
+}
+.navbar.contact{
+    margin-bottom: 45px;
+}
+#contactimg{
+    margin-top:40px;
+}
+#resume{
+    height:140px;
+    border:none;
+}
+.center{
+    text-align: center;
+}
+#intouch{
+    color:white;
+    background:yellow;
+}
+.marketing{
+    text-align: center;
+}
+.center{
+    margin:0 auto;
+}
+#myModal li{
+    text-align: left;
+}
+#pict{
+    postion:relative;
+    border:none;
+}
+body > div.intro-block > div > div > div.col-xs-3 > img {
+position: relative;
+top: -48px;
+}
+#phone{
+    position:relative;
+    right:40px;
+}
+#num{
+    position:relative;
+    right:30px;
+}
+#win > p > img {
+height: 100px;
+width: 180px;
+margin-left:13px;
+}
+body > div.container.padded > div:nth-child(2) > div:nth-child(2) > img {
+border: none;
+}
+.img-circle {
+height: 200px;
+border: 1px solid;
+}
+#responsive{
+ font-size:24px;
+}
+p{
+    text-align:left;
+}
+.black{
+    background:black;
+}
+.sample2{
+    height:341px;
+}
+.sample{
+   padding-top:42px;
+}
