@@ -101,7 +101,7 @@ button{
 .box{
   float:left;
   font-size:20px;
-  width:30%;
+  border-bottom: solid black 1px;
   text-align: left;
   padding:15px;
   line-height: 35px;
