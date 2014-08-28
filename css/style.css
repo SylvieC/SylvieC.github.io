@@ -125,4 +125,7 @@ button{
   padding-bottom: 15px;
   width: 100%;
 }
+body > div.container.padded > div:nth-child(2) > div:nth-child(2) > img {
+border: 1px solid black;
+}
 

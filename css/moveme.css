@@ -310,3 +310,6 @@ p{
 .sample{
    padding-top:42px;
 }
+body > div.container.padded > div:nth-child(2) > div:nth-child(2) > img {
+border: 1px solid black;
+}
